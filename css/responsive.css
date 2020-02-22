@@ -1,0 +1,94 @@
+@media screen and (max-width: 1200px)
+{
+
+}
+
+@media screen and (max-width: 768px)
+{
+  .overlay 
+  {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    z-index: 1;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: left .3s;
+  }
+
+  .overlay-open /*--- JS  ---*/
+  {
+    left: 0;
+  }
+
+  .burger-button
+  {
+    display: block;
+    z-index: 3;
+  }
+
+  .mainSidebar
+  {
+    position: fixed;
+    left: -100%;
+    height: 100%;
+    width: 30%;
+    overflow: auto;
+    transition: left 0.3s;
+    z-index: 1;
+  }
+
+  .mainSidebar-open /*--- JS ---*/
+  {
+    left: 0;
+  }
+
+  .info-manage
+  {
+    gap: 70px;
+  }
+}
+
+@media screen and (max-width: 480px)
+{
+  .grid-container
+  {
+    grid-template-columns: 1fr;
+  }
+
+  .community
+  {
+    grid-template: auto 1fr / 1fr; 
+    row-gap: 20px;
+    grid-template-areas: "suggestions"
+                         "comments";
+  }
+
+  .suggestions 
+  {
+    grid-area: suggestions;
+  }            
+
+  .suggestions-title
+  {
+    padding: 0;
+  }
+
+  .suggestion-videos
+  {
+    display: inline-flex;
+    justify-content: space-around;
+  }
+
+
+  .comments 
+  {
+    grid-area: comments;
+  }
+}
+
+@media screen and (max-width: 320px)
+{
+
+}

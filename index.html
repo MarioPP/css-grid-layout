@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- JS -->
+    <script src="js/responsive.js"></script>
+    <title>PlatziVideo</title>
+  </head>
+  <body>
+    <div class="overlay" id="overlay"></div>
+    <div class="container-burger">
+      <i class="icon-menu burger-button" onclick="mobile()"></i>
+    </div>
+    <div class="container">
+      <div class="grid-container"> 
+        <!-- Sidebar start -->
+        <aside class="mainSidebar" id="sidebarMenu">
+          <h1 class="logo"> <!-- Logo -->
+            <a href="#" class="logo-link"> Platzi<span>Video</span> </a>
+          </h1>
+          <div class="myPlaylist"> <!-- My Playlist -->
+            <h3 class="myPlaylist-title">Mi Playlist</h3>
+            <ul class="menu">
+              <li class="myList">
+                <a href="#" target="_blank" class="myList-link">1 Lorem ipsum dolor sit, amet consectetur adipisicing.</a>
+              </li>
+              <li class="myList">
+                <a href="#" target="_blank" class="myList-link">2 Lorem ipsum dolor sit.</a>
+              </li>
+              <li class="myList">
+                <a href="#" target="_blank" class="myList-link">3 Lorem, ipsum.</a>
+              </li class="myList">
+              <li class="myList">
+                <a href="#" target="_blank" class="myList-link">4 Lorem ipsum dolor sit amet.</a>
+              </li>
+              <li class="myList">
+                <a href="#" target="_blank" class="myList-link">5 Lorem, ipsum.</a>
+              </li>
+              <li class="myList">
+                <a href="#" target="_blank" class="myList-link">6 Lorem ipsum dolor sit amet consectetur.</a>
+              </li>
+              <li class="myList">
+                <a href="#" target="_blank" class="myList-link">7 Lorem ipsum dolor sit amet.</a>
+              </li>
+              <li class="myList">
+                <a href="#" target="_blank" class="myList-link">8 Lorem, ipsum dolor.</a>
+              </li>
+              <li class="myList">
+                <a href="#" target="_blank" class="myList-link">9 Lorem, ipsum.</a>
+              </li>
+              <li class="myList">
+                <a href="#" target="_blank" class="myList-link">10 Lorem ipsum dolor sit.</a>
+              </li class="myList">
+            </ul>
+          </div>
+          <div class="playlistFriends"> <!-- Friends Playlist -->
+            <div class="playlistFriends-container">
+              <h3 class="playlistFriends-title">Playlist de Amigos</h3>
+              <ul class="menu">
+                <li class="friendsList">
+                  <a href="#" class="friendsList-link">
+                    <figure class="user">
+                      <img src="images/user.png" alt="Amig@" class="user-img" />
+                    </figure>
+                    <span>Maria Anubisios</span>
+                  </a>
+                </li class="friendsList">
+                <li class="friendsList">
+                  <a href="#" class="friendsList-link">
+                    <figure class="user">
+                      <img src="images/user.png" alt="Amig@" class="user-img" />
+                    </figure>
+                    <span>Sara Ruiz</span>
+                  </a>
+                </li>
+                <li class="friendsList">
+                  <a href="#" class="friendsList-link">
+                    <figure class="user">
+                      <img src="images/user.png" alt="Amig@" class="user-img" />
+                    </figure>
+                    <span>Juango Parra</span>
+                  </a>
+                </li>
+                <li class="friendsList">
+                  <a href="#" class="friendsList-link">
+                    <figure class="user">
+                      <img src="images/user.png" alt="Amig@" class="user-img" />
+                    </figure>
+                    <span>Anaisasos Loma</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+        <!-- Sidebar end -->
+  
+        <!-- Main Section start -->
+        <section class="mainSection">
+          <div class="player"> <!-- Player -->
+            <div class="player-video">
+              <iframe
+                src="https://www.youtube.com/embed/Oqcqnxjwp8Q"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                class="video-youtube"
+              ></iframe>
+            </div>
+            <div class="info">
+              <div class="info-video">
+                <h2 class="info-video-name">
+                  [Free Cover Venezuela] Ronald Borjas - Medley
+                </h2>
+                <span class="info-video-views">77,267 views</span>
+              </div>
+              <div class="info-manage">
+                <div class="manage">
+                  <button class="add">Agregar a mi lista</button>
+                  <a href="#" class="manage-link">
+                    <i class="icon-share"></i>
+                    <span class="link-text">Compartir</span>
+                  </a>
+                  <a href="#" class="manage-link">
+                    <i class="icon-save"></i>
+                    <span class="link-text">Guardar</span>
+                  </a>
+                </div>
+                <div class="category">
+                  <ul class="category-list">
+                    <li>
+                      <a href="#" class="category-link">Venezuela</a>
+                    </li>
+                    <li>
+                      <a href="#" class="category-link">Música</a>
+                    </li>
+                    <li>
+                      <a href="#" class="category-link">Salsa</a>
+                    </li>
+                    <li>
+                      <a href="#" class="category-link">Arepa</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="community"> <!-- Comunity -->
+            <div class="comments">
+              <h3 class="comments-title">Comentarios</h3>
+              <form action="#" class="add-comment">
+                <figure class="user">
+                  <img src="images/user.png" alt="Usuario" class="user-img" />
+                </figure>
+                <input type="text" placeholder="Añade un comentario" />
+              </form>
+              <div class="review-comments">
+                <div class="comment">
+                  <figure class="user">
+                    <img src="images/user.png" alt="Usuari@" class="user-img" />
+                  </figure>
+                  <div class="comment-content">
+                    <h4 class="user-name">Carla Jota</h4>
+                    <p class="comment-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Minus, quam.
+                    </p>
+                  </div>
+                </div>
+                <div class="comment">
+                  <figure class="user">
+                    <img src="images/user.png" alt="Usuari@" class="user-img" />
+                  </figure>
+                  <div class="comment-content">
+                    <h4 class="user-name">Juana Anubisios</h4>
+                    <p class="comment-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Minus, quam.
+                    </p>
+                  </div>
+                </div>
+                <div class="comment">
+                  <figure class="user">
+                    <img src="images/user.png" alt="Usuari@" class="user-img" />
+                  </figure>
+                  <div class="comment-content">
+                    <h4 class="user-name">Sara Roca</h4>
+                    <p class="comment-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Minus, quam.
+                    </p>
+                  </div>
+                </div>
+                <div class="comment">
+                  <figure class="user">
+                    <img src="images/user.png" alt="Usuari@" class="user-img" />
+                  </figure>
+                  <div class="comment-content">
+                    <h4 class="user-name">Juango Merce</h4>
+                    <p class="comment-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Minus, quam.
+                    </p>
+                  </div>
+                </div>
+                <div class="comment">
+                  <figure class="user">
+                    <img src="images/user.png" alt="Usuari@" class="user-img" />
+                  </figure>
+                  <div class="comment-content">
+                    <h4 class="user-name">Sarainano Tobo</h4>
+                    <p class="comment-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Minus, quam.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="suggestions">
+              <!-- Suggestions -->
+              <h3 class="suggestions-title">Sugerencias</h3>
+              <div class="suggestion-videos">
+                <div class="suggestion">
+                  <iframe
+                    src="https://www.youtube.com/embed/Oqcqnxjwp8Q"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    class="suggestion-video-youtube"
+                  ></iframe>
+                  <a
+                    href="https://www.youtube.com/embed/Oqcqnxjwp8Q"
+                    target="_blank"
+                    class="suggestion-title"
+                  >
+                    <h4 class="suggestion-title">
+                      [Free Cover Venezuela] Ronald Borjas - Medley
+                    </h4>
+                  </a>
+                </div>
+                <div class="suggestion">
+                  <iframe
+                    src="https://www.youtube.com/embed/Oqcqnxjwp8Q"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    class="suggestion-video-youtube"
+                  ></iframe>
+                  <a
+                    href="https://www.youtube.com/embed/Oqcqnxjwp8Q"
+                    target="_blank"
+                    class="suggestion-title"
+                  >
+                    <h4 class="suggestion-title">
+                      [Free Cover Venezuela] Ronald Borjas - Medley
+                    </h4>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Main Section end -->
+      </div>
+    </div>
+  </body>
+</html>
